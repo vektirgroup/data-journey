@@ -10,9 +10,6 @@ st.set_page_config(
    initial_sidebar_state="expanded",
 )
 
-df1 = pd.DataFrame(
-    np.random.randn(50, 20),
-    columns=('col %d' % i for i in range(20))
-)
+st.title('Data Journey App')
 
-my_table = st.table(df1)
+
