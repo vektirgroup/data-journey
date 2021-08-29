@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-
-if __name__ == '__main__'():
-    st.sidebar("Date- Journey")
+st.set_page_config(
+   page_title="Data Journey App",
+   page_icon="🧊",
+   layout="wide",
+   initial_sidebar_state="expanded",
+)
